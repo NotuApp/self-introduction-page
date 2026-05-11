@@ -37,7 +37,6 @@ main{
 }
 
 .sub-page {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,8 +45,8 @@ main{
 }
 
 .spinner {
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   object-fit: cover;
   animation: spin 8s linear infinite;
