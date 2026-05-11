@@ -107,6 +107,8 @@ main .card_text{
     padding: 10px;
     border-radius: 5%;
 
+    text-decoration: none;
+
     box-shadow: 5px 5px 10px rgba(0, 50, 100, 0.2);
 
     overflow: hidden;
