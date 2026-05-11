@@ -70,9 +70,14 @@ main .card_text{
 .center_text{
     margin: 0;
     text-align: center;
-    font-size: 200px;
-    color: var(--ink);
+    font-size: 400px;
+    color: transparent;
     width: 100%;
+
+    -webkit-text-stroke: 8px var(--accent-warm);
+    font-weight: 900;
+    letter-spacing: 0.1em;
+
 }
 
 .header{
