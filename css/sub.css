@@ -36,6 +36,13 @@ main{
     padding-bottom: 0.3em;
 }
 
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
 .sub-page {
   display: flex;
   flex-direction: column;
