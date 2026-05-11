@@ -44,6 +44,15 @@ main{
   gap: 40px;
 }
 
+.back-link{
+  text-decoration: none;
+  padding: 10px 24px;
+  border-radius: 8px;
+  background-color: var(--accent);
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
 .spinner {
   width: 500px;
   height: 500px;

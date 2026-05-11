@@ -64,7 +64,7 @@ main .card_text{
     font-weight: 400;
     text-align: center;
     letter-spacing: 0.1em;
-    color: #606060;
+    color: var(--ink-soft);
 }
 
 .center_text{
@@ -81,16 +81,18 @@ main .card_text{
     font-size: x-large;
     font-weight: bold;
     margin: 0;
-    padding: 10px;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15)
 }
 
 .title{
     color: var(--accent-warm);
     margin: 0;
     font-size: 2em;
-    border-bottom: dashed 2px #ddd;
+    border-bottom: dashed 2px var(--rule);
     padding-top: 1em;
     padding-bottom: 0.3em;
+    margin-top: 2.5em;
 }
 
 .flex-box{
@@ -105,7 +107,7 @@ main .card_text{
     background-color: var(--bg-card);
     margin: 20px;
     padding: 10px;
-    border-radius: 5%;
+    border-radius: 12px;
 
     text-decoration: none;
 
