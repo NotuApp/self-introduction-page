@@ -118,3 +118,22 @@ main .card_text{
 .flex-item:hover{
     transform: scale(1.05);
 }
+
+.chips{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.chip{
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+    border: 1px solid var(--rule);
+    border-radius: 999px;
+    background-color: var(--bg-card);
+    font-size: 13px;
+}
